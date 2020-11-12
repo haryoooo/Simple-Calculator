@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- User Defined CSS -->
+    <link rel="stylesheet" href="../Calculator/CSS/style.css">
+    
+    <!-- Animate css -->
+	  <link rel="stylesheet" type="text/css" href="animate.css">
+
+    <link rel="shotrcut icon" href="../IMG/favicon (8).ico" type="image/x-icon">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+
+</head>
+
+<body>
+
+  <div id="mode">
+    <p class="p1">Dark Mode</p>
+
+    <label class="switch">
+        <input type="checkbox" class="flip3D" id="tUbahWarna">
+        <span class="slider round">
+        </span>
+    </label>
+  </div>
+
+      <!-- Lapisan Luar dari Calculatornya -->
+        <div class="container">
+        <!-- Contain dari angka yang diketik dan action yang akan dilakukan beserta hasilnya  -->
+          <div class="result">
+          <p id="result-box"></p>
+          </div>
+
+        <!-- Contain button action dan Button angka2 dari calculator -->
+            <div class="buttons">
+                <div class="button action-btn" id="clear">AC</div>
+                <div class="button action-btn" id="backspace">DEL</div>
+                <div class="button action-btn" id="percent">%</div>
+                <div class="button num-button  calc-action-btn">/</div>
+                <div class="button num-button  angka">7</div>
+                <div class="button num-button  angka">8</div>
+                <div class="button num-button  angka">9</div>
+                <div class="button num-button  calc-action-btn">*</div>
+                <div class="button num-button  angka">4</div>
+                <div class="button num-button  angka">5</div>
+                <div class="button num-button  angka">6</div>
+                <div class="button num-button  calc-action-btn">-</div>
+                <div class="button num-button  angka">1</div>
+                <div class="button num-button  angka">2</div>
+                <div class="button num-button  angka">3</div>
+                <div class="button num-button  calc-action-btn">+</div>
+                <div class="button num-button  angka zero">0</div>
+                <div class="button num-button  angka point">.</div>
+                <div class="button calc-action-btn" id="total">=</div>
+            </div>
+        </div>
+
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js'></script>
+  <script src="../Calculator/Assets/script.js"></script>
+
+</body>
+</html>
